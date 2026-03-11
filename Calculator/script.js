@@ -132,4 +132,4 @@ equalBtn.addEventListener("click", () => {
 
     operator = null;
     firstNumber = null;
-});
+});ndnbnvbvvbjjvfbvvbfjvfbvvbvnuvnfuhbb
