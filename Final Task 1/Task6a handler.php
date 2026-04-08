@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Task 1A - Handler Page</title>
+    <title>Task 6A - Handler Page</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; }
     </style>
@@ -12,12 +12,12 @@
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST["name"];
-    echo "<p>Name: " . $name . "</p>";
+    $blood_group = $_POST["blood_group"];
+    echo "<p>Blood Group: " . $blood_group . "</p>";
 }
 ?>
 
-<a href="task1a_form.php">Go Back</a>
+<a href="task6a_form.php">Go Back</a>
 
 </body>
 </html>
